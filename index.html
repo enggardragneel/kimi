@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kimi no wa Blog</title>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+<style>
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', sans-serif;
+	background: linear-gradient(to top right,#010216, #010207);
+}
+
+nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 100px;
+	width: 100%;
+	height: 100px;
+	box-sizing: border-box;
+	transition: .3s;
+}
+
+nav .logo{
+	color: #ffffff;
+	float: left;
+	padding: 20px 20px;
+	height: 80px;
+	font-size: 25px;
+	font-weight: bold;
+	transition: .3s;
+}
+
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;
+}
+
+nav ul li a{
+	line-height: 80px;
+	color: #ffffff;
+	padding: 12px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s;
+}
+
+nav.black ul li a{
+	color: #fff;
+}
+
+nav ul li a:focus{
+	outline: none;
+}
+
+section.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: url(mitsuha.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.trailer{
+	background-size: cover;
+	width: 100%;
+	height: 150vh;
+}
+
+.trailer h1{
+	color: #ffffff;
+	text-align: center;
+	font-size: 34px;
+}
+
+.trailer iframe{
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 60%;
+	height: 60vh;
+}
+
+.trailer p{
+	color: #ffffff;
+	text-align: justify;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.chara{
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+
+.chara h1{
+	color: #ffffff;
+	text-align: center;
+	font-size: 34px;
+}
+
+.gambar{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.character{
+	padding: 10px;
+}
+
+.gambar img{
+	object-fit: cover;
+  border-radius:50%;
+  width: 120px;
+  height: 120px;
+}
+
+.song{
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+.song h1{
+	color: #ffffff;
+	text-align: center;
+	font-size: 34px;
+}
+
+.song iframe{
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 80%;
+	height: 80vh;
+}
+
+.footer{
+	height: 50px;
+	width: 100%;
+	margin: 0 auto;
+	display: block
+}
+
+.footer p{
+	color: #ffffff;
+	text-align: center;
+}
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="wrap">
+	<nav>
+		<div class="logo">KIMI NO WA</div>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#trailer">Trailer</a></li>
+			<li><a href="#chara">Chara</a></li>
+			<li><a href="#song">Song</a></li>
+	</nav>
+
+	<section class="banner" id="home"></section>
+	<section class="trailer" id="trailer">
+			<h1> Trailer </h1>
+			<iframe src="https://www.youtube.com/embed/hRfHcp2GjVI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+			<h1> Synopsis </h1>
+			<p>Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture.</p>
+
+			<p>One day, Mitsuha awakens in a room that is not her own and suddenly finds herself living the dream life in Tokyo—but in Taki's body! Elsewhere, Taki finds himself living Mitsuha's life in the humble countryside. In pursuit of an answer to this strange phenomenon, they begin to search for one another.</p>
+
+			<p>Kimi no Na wa. revolves around Mitsuha and Taki's actions, which begin to have a dramatic impact on each other's lives, weaving them into a fabric held together by fate and circumstance.</p>
+	</section>
+
+	<section class="chara" id="chara">
+		<h1> Character </h1>
+		<div class="gambar">
+			<img class="character" src="https://myanimelist.cdn-dena.com/images/characters/6/306631.jpg">
+			<img class="character" src="https://static.zerochan.net/Tachibana.Taki.full.2013594.jpg">
+			<img class="character" src="https://lohas.nicoseiga.jp/thumb/6151727i?1475493224">
+			<img class="character" src="https://myanimelist.cdn-dena.com/r/360x360/images/characters/10/306640.jpg?s=132efd11c626c9c47b01c878b8f28bf0">
+			<img class="character" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgc4mkpSuAwMt-VdWxnPO4UiixNOdxC4TYvLJrpuWcPeaZLXWr">
+			<img class="character" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa_GA65B5MCiyS5oV2sQTN1XLKe8z5dodmktGCX_biPAWs_mZu">
+			<img class="character" src="https://vignette.wikia.nocookie.net/kiminonawa/images/0/0a/Teshigawara.Katsuhiko.full.2013598.jpg/revision/latest?cb=20160928155940">
+			<img class="character" src="https://images.wikia.nocookie.net/__cb20170422215152/kiminonawa/images/thumb/f/f7/Kimi-no-Na-wa-Character-Visual-Hitoha-001-20160607.jpg/130px-83%2C370%2C0%2C253-Kimi-no-Na-wa-Character-Visual-Hitoha-001-20160607.jpg">
+			<img class="character" src="https://images.wikia.nocookie.net/__cb20170811141152/kiminonawa/images/thumb/4/4c/63172.jpg/130px-0%2C200%2C4%2C181-63172.jpg">
+			<img class="character" src="https://images.wikia.nocookie.net/__cb20160928095543/kiminonawa/images/thumb/4/48/306633.jpg/130px-0%2C225%2C5%2C204-306633.jpg">
+			<img class="character" src="https://images.wikia.nocookie.net/__cb20170817182437/kiminonawa/images/thumb/d/db/Futaba_Miyamizu.png/130px-293%2C977%2C0%2C604-Futaba_Miyamizu.png">
+			<img class="character" src="https://images.wikia.nocookie.net/__cb20170915203115/kiminonawa/images/thumb/f/fe/Yukari_Yukino.png/130px-351%2C1573%2C0%2C1080-Yukari_Yukino.png">
+		</div>
+	</section>
+
+	<section class="song" id="song">
+		<h1> Soundtrack </h1>
+		<iframe src="https://www.youtube.com/embed/PDSkFeMVNFs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	</section>
+</div>
+
+<div class="footer">
+<p>》crafted by kirintux《</p>
+</div>
+
+<script>
+
+$("a[href^='#']").click(function(e) {
+	e.preventDefault();
+	
+	var position = $($(this).attr("href")).offset().top;
+
+	$("body, html").animate({
+		scrollTop: position
+	} /* speed */ );
+});
+
+</script>
+</body>
+</html>
